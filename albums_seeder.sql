@@ -1,4 +1,7 @@
 USE codeup_test_db;
+
+TRUNCATE albums;
+
 INSERT INTO albums(artist, album, release_date, sales, genre)
 VALUES ('Michael Jackson', 'Thriller', 1982, 47.3, 'pop'),
        ('AC/DC', 'Back in Black', 1980, 29.4, 'hard rock'),
@@ -24,7 +27,7 @@ VALUES ('Michael Jackson', 'Thriller', 1982, 47.3, 'pop'),
        ('The Beatles', '1', 2000, 23.4, 'rock'),
        ('ABBA', 'Gold: Greatest Hits', 1992, 23.0, 'pop'),
        ('Bruce Springsteen', 'Born in the U.S.A.', 1984, 19.6, 'Heartland Rock'),
-       ('Dire Straits', 'Brothers in Arms', 1985, 17.7, 'Roots Rock, Blues Rock, Soft Rock'),
+       ('Dire Straits', 'Brothers in Arms', 1985, 17.7, 'Rock'),
        ('James Horner', 'Titanic: Music From the Motion Picture', 1997, 18.1, 'Film Score'),
        ('Metallica', 'Metallica', 1991, 25.2, 'Heavy Metal'),
        ('Nirvana', 'Nevermind', 1991, 16.7, 'Grunge, Alternative Rock'),
